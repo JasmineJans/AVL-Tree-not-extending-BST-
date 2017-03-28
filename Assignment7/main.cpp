@@ -6,13 +6,28 @@
 //  Copyright (c) 2014 Jasmine Jans. All rights reserved.
 //
 
-#include <iostream>
+#include "AVLtree.h"
 
-int main(int argc, const char * argv[])
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+	AVLTree avl = AVLTree(9);
+    avl.insert(40);
+	avl.insert(24);
+	avl.insert(56);
+	avl.insert(16);
+	avl.insert(32);
+	avl.insert(48);
+	avl.insert(6);
+	avl.insert(64);
+	avl.insert(3);
+	avl.insert(43);
+	avl.insert(93);
+	avl.insert(84);
+	avl.insert(8);
+	avl.insert(47);
+	avl.insert(77);
+	avl.insert(123);
+	avl.insert(31);
+    avl.finalPrint();
+	avl.printTest();
 }
-
